@@ -3,22 +3,71 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
-    background-color: lightgrey;
+    background: url('/images/tela-fundo.jpg') no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
-    background-color: white;
-    height: 550px;
-    width: 800px;
+    background: white;
+    width: 950px;
+    height: 700px;
     border-radius: 10px;
-}
-
-div.container {
+    box-shadow: 2px 1px 10px 0px #00000077;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+section#perfume > img {
+    border-radius: 10px 0px 0px 10px;
+    width: 475px;
+    height: 700px;
+}
+
+section#text { 
+    float: right;
+    width: 475px;
+    height: 700px;
+}
+
+section {
+    display: inline-block;
+}
+
+section#text > h3 {
+    margin: 40px 20px 0px 50px;
+    font: bold 1.1em 'Segoe UI';
+    color: #8080809a;
+    letter-spacing: 7px;
+}
+
+section#text > p#essence {
+    margin: 20px 30px 0px 50px;
+    font: bolder 3.1em '';
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+section#text > p#text-perfume  {
+    font: normal 1.2em 'Gill Sans';
+    color: #808080;
+    margin: 20px 30px 0px 50px;
+    line-height: 1.8em;
+}
+ 
+section#text > p#price {
+    margin: 20px 30px 0px 50px;
+    font: bolder 3.5em 'Times New Roman';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkolivegreen;
 }
