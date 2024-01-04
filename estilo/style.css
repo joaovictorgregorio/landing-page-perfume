@@ -59,15 +59,32 @@ section#text > p#essence {
 }
 
 section#text > p#text-perfume  {
-    font: normal 1.2em 'Gill Sans';
-    color: #808080;
+    font: normal 1.4em 'Gill Sans';
     margin: 20px 30px 0px 50px;
     line-height: 1.8em;
 }
  
 section#text > p#price {
-    margin: 20px 30px 0px 50px;
-    font: bolder 3.5em 'Times New Roman';
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkolivegreen;
+    margin: 60px 30px 0px 50px;
+    font: normal 2.7em 'Impact';
+    color: darkgreen;
+    letter-spacing: 5px;
+}
+
+section#text > p#add {
+    margin: 50px 30px 0px 50px;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+section#text > p#add > a {
+    background-color: darkgreen;
+    border-radius: 8px;
+    padding: 25px;
+    font: bold 1.2em 'Trebuchet MS';
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
 }
