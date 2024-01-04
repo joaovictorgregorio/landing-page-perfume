@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background: url('/images/tela-fundo.jpg') no-repeat left center;
+    background: url('../images/tela-fundo.jpg') no-repeat left center;
     background-size: cover;
     background-attachment: fixed;
 }
